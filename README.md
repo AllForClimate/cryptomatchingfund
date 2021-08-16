@@ -32,3 +32,7 @@ When someone wants to donate to a whitelisted recipient, they need to give the M
 This will transfer the desired amount of token from the donor's address and it will execute the same transfer out of the Matching Fund balance.
 
 This ensures that both the donor and the Matching Fund are considered as donors of the recipient organisation.
+
+### Contribute
+
+Join the crypto channel on https://discord.allforclimate.earth
