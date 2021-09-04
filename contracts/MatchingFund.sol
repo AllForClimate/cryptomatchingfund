@@ -35,6 +35,7 @@ contract MatchingFund {
         address[] memory _whitelistedDonors,
         address[] memory _whitelistedRecipients
     ) public {
+        require(_whitelistedRecipients.length > 0, "please provide at least one whitelisted recipient for this fund");
         owner = msg.sender;
         expiration = block.timestamp + _duration;
         minimumDonationForLP = _minimumDonationForLP;
