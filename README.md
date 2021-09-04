@@ -1,4 +1,4 @@
-# Matching Fund
+# Crypto Matching Fund
 
 Smart contract to set up a matching fund to support a cause.
 Work in progress.
@@ -18,12 +18,13 @@ Use cases:
 - Can hold any ERC20 token (donate ETH, DAI, USDC, USDT or any of your own tokens)
 - Allow anyone to increase the balance of your matching fund
 - Set a whitelist of recipients
-- Set a whitelist of donors
+- Set a whitelist of donors (optional)
+- When closing the fund, the balance, if any, is sent back to all the funders pro-rata.
 
 ### How it works
 
 Every Matching Fund has its own smart contract.
-You can define a whitelist of recipients and a whitelist of donors (e.g. if you'd like to limit this matching fund to your core contributors)
+You can define a whitelist of recipients and a whitelist of donors (e.g. if you'd like to limit this matching fund to the members of your DAO or any other group of people)
 
 You can opt in to let anyone increase the balance of the fund and join you as a co-funder.
 
